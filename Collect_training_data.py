@@ -118,6 +118,7 @@ class CollectTrainingData:
                     ret, frame = acf.read()
                     if ret:
                         cv2.imshow('Android Feed', frame)
+                        cv2.waitKey(1)
                         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
                         '''
                         image = cv2.GaussianBlur(frame, (5, 5), 0)

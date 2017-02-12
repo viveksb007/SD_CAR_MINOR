@@ -2,11 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9b1fec-7769-4bc9-a9c4-09de4bebcb78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_data/training.npz" afterPath="$PROJECT_DIR$/training_data/training.npz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_images/train1.jpg" afterPath="$PROJECT_DIR$/training_images/train1.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_data/training.npz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_images/train9.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collect_training_data.py" afterPath="$PROJECT_DIR$/Collect_training_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp.py" afterPath="$PROJECT_DIR$/temp.py" />
     </list>
     <ignored path="SD_CAR_MINOR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +47,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SD_CAR_MINOR$temp.coverage" NAME="temp Coverage Results" MODIFIED="1486892613910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SD_CAR_MINOR$temp.coverage" NAME="temp Coverage Results" MODIFIED="1486897834949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SD_CAR_MINOR$ArrowKeyCodes.coverage" NAME="ArrowKeyCodes Coverage Results" MODIFIED="1486891488289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SD_CAR_MINOR$IP_CAM_CLIENT.coverage" NAME="IP_CAM_CLIENT Coverage Results" MODIFIED="1486892667113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SD_CAR_MINOR$Collect_training_data.coverage" NAME="Collect_training_data Coverage Results" MODIFIED="1486891330135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -34,23 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Collect_training_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collect_training_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -116,6 +132,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -136,8 +154,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,7 +167,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.IP_CAM_CLIENT">
+  <component name="RunManager" selected="Python.temp">
     <configuration default="false" name="Live_Feed" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -459,8 +475,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.IP_CAM_CLIENT" />
-        <item index="1" class="java.lang.String" itemvalue="Python.temp" />
+        <item index="0" class="java.lang.String" itemvalue="Python.temp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.IP_CAM_CLIENT" />
         <item index="2" class="java.lang.String" itemvalue="Python.ArrowKeyCodes" />
         <item index="3" class="java.lang.String" itemvalue="Python.Collect_training_data" />
         <item index="4" class="java.lang.String" itemvalue="Python.Live_Feed" />
@@ -487,24 +503,24 @@
     <frame x="55" y="21" width="1311" height="747" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15051222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15287629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35539794" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35539794" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -537,28 +553,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Live_Feed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="210">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Live_Feed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Collect_training_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="-305">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -568,7 +583,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding />
         </state>
       </provider>

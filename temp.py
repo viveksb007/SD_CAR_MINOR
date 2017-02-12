@@ -1,14 +1,20 @@
 import pygame
 import cv2
+import numpy as np
 
-pygame.init()
+#pygame.init()
 size = (320, 240)
-screen = pygame.display.set_mode(size)
-img = cv2.imread('mypic.jpg')
-img = cv2.resize(img, (320, 240))
-pygame.surfarray.blit_array(screen, img)
+#screen = pygame.display.set_mode(size)
+cap = cv2.VideoCapture(0)
+
+
 
 while True:
+    _, frame = cap.read()
+    cv2.imshow("yo", frame)
+    cv2.waitKey(1)
+    '''
+
     for event in pygame.event.get():
         if event.type == pygame.KEYDOWN:
             key_input = pygame.key.get_pressed()
@@ -34,3 +40,4 @@ while True:
             break
         elif event.type == pygame.KEYUP:
             pass
+            '''

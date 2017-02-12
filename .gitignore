@@ -1,4 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-training_data/*
-training_images/*
-.idea/*
+training_data
+training_images
+.idea
